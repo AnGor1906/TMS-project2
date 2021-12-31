@@ -3,38 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project2</title>
-    <link rel="stylesheet" href="projectAnia2style.css">
+    <link rel="stylesheet" href="./projectAnia2style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/0d99255ff0.js"></script>
+
 </head>
 
 <body>
+    <article class="fixedpanel">
+        <section class="fixedpanel__info">
+            <section class="info__text"> Контактная информация</section>
+            <section class="info__line"></section>
+            <section class="info__icons"> <span class="m-gold"><i class="fa fa-instagram" aria-hidden="true"></i><span class="icons__space">&nbsp;</span> </span><i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="icons__space">&nbsp;</span> <i class="fa fa-vk" aria-hidden="true"></i> <span class="icons__space">&nbsp;</span><i class="fa fa-youtube-play" aria-hidden="true"></i></section>
 
+        </section>
+    </article>
     <header>
-        <article class="fixedpanel"></article>
+
+
+
         <article class="topline">
+
             <nav class="topline__menu">
-                <nav class="menu__item1">ГЛАВНАЯ</nav>
-                <nav class="menu__item2">О комплексе</nav>
-                <nav class="menu__item3">НАШИ ПРОЕКТЫ</nav>
-                <nav class="menu__item4">НАШИ КЛИЕНТЫ</nav>
-                <nav class="menu__item5">КОНТАКТЫ</nav>
-                <article class="menu__phone">
-                    <section class="phone__number"> +7 499 123 45 67</section>
-                    <section class="phone__block "></section>
-                </article>
+                <nav class="menu__item">ГЛАВНАЯ</nav>
+                <nav class="menu__item">О комплексе</nav>
+                <nav class="menu__item">НАШИ ПРОЕКТЫ</nav>
+                <nav class="menu__item">НАШИ КЛИЕНТЫ</nav>
+                <nav class="menu__item">КОНТАКТЫ</nav>
             </nav>
+            <article class="menu__phone">
+                <section class="phone__number"> +7 499 123 45 67</section>
+                <section class="phone__block "></section>
+            </article>
+
         </article>
 
         <article class="bodyofheader">
             <article class="bodyofheader__forheader">
                 <h1 class="forheader__headline"> БОЛЬШОЙ ТЕАТР</h1>
-                <section class="forheader__maintext">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</section>
+                <section class="forheader__maintext">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, <br> с 1886 года — Петербургская консерватория. Первое постоянное в <br> Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных <br> зданий в Европе
+                    XVIII.
+                </section>
                 <button class="button__forheader m-goldback">АФИША</button>
 
             </article>
@@ -53,7 +70,7 @@
             <h2 class="about__headline"> <span class="headline m-gold">О </span> ТЕАТРЕ</h2>
             <section class="about__body">
                 <section class="about__text">
-                    <section class="about__text m-bold">Старейший театр Петербурга</section>
+                    <section class="about__text m-bold m-aboutmarginbold">Старейший театр Петербурга</section>
                     <section class="about__text m-light"> Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина
                         II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя,
                         основываясь на других свидетельствах, годом открытия можно считать 1784 год.</section>
@@ -61,22 +78,31 @@
 
                 <section class="about__numbers">
                     <section class="about__numbers headline m-bold">Единственный театр</section>
-                    <section class="about__numbers group-one"><img src="" alt="armcher"></section>
-                    <section class="about__numbers  m-bold">1600 ПОСАДОЧНЫХ МЕСТ</section>
-                    <section class="about__numbers group-two"></section>
-                    <section class="about__numbers m-bold">300 ЛЕТ ИСТОРИИ</section>
+                    <section class="about__numbers m-aboutmargin"><img src="../project2/pics/armchair 1.png" alt="armcher"></section>
+                    <section class="about__numbers  m-bold"> <span class="m-gold">1600</span> ПОСАДОЧНЫХ МЕСТ</section>
+                    <section class="about__numbers m-aboutmargin"> <img src="../project2/pics/theater 1.png" alt="theater"></section>
+                    <section class="about__numbers m-bold"><span class="m-gold"> 300</span> ЛЕТ ИСТОРИИ</section>
                 </section>
-                <section class="about__picture"><img src="../project2/pics/Rectangle 12.jpg" alt="building"> </section>
+                <section class="about__picture"> </section>
             </section>
         </article>
 
         <article class="projects">
             <h2 class="projects__headline"> <span class="headline m-gold"> НАШИ</span> ПОСТАНОВКИ</h2>
             <section class="projects__slider">
-                <section class="slider__item"><img src="../project2/pics/item1.jpg" alt="сентябрь2019"></section>
-                <section class="slider__item m-searching"><img src="../project2/pics/item2--active.jpg" alt="search"> </section>
-                <section class="slider__item"><img src="../project2/pics/item3.jpg" alt="алые паруса"></section>
-                <section class="slider__item "><img src="../project2/pics/item4 щелкунчик.jpg" alt="зимняя сказка-щелкунчик"></section>
+                <section class="slider__item1">
+                    <div class="item1 m-horizontal"> ОСКАР 2019</div>
+                    <div class="item1 m-vertical">СЕНТЯБРЬ 2019</div>
+                </section>
+                <section class="slider__item2 m-searching"> </section>
+                <section class="slider__item3">
+                    <div class="item3 m-horizontal"> АЛЫЕ ПАРУСА</div>
+                    <div class="item3 m-vertical">АВГУСТ 2019</div>
+                </section>
+                <section class="slider__item4 ">
+                    <div class="item4 m-horizontal"> ЗИМНЯЯ СКАЗКА</div>
+                    <div class="item4 m-vertical">ЯНВАРЬ 2019</div>
+                </section>
             </section>
         </article>
 
@@ -85,7 +111,7 @@
 
             <section class="raiting__column">
                 <section class="column__stars m-gold"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></section>
-                <section class="column__text">Лучший театр по мнению престижного журнала <br> The VIP Theatres</section>
+                <section class="column__text">лучший театр по мнению престижного журнала The VIP Theatres</section>
             </section>
 
         </article>
@@ -93,15 +119,14 @@
         <article class="partners">
             <h2 class="partners__headline"> <span class="headline m-gold"> НАШИ</span> ПАРТНЕРЫ </h2>
             <section class="partners__logo">
-                <img src="path1.jpg" alt="логотип">
-                <img src="path2.jpg" alt="логотип">
-                <img src="path3.jpg" alt="логотип">
-                <img src="logo.jpg" alt="логотип">
-                <img src="logo.jpg" alt="логотип">
-                <img src="logo.jpg" alt="логотип">
-                <img src="logo.jpg" alt="логотип">
-                <img src="logo.jpg" alt="логотип">
-
+                <section class="logo__section m-bright"> </section>
+                <section class="logo__section"> </section>
+                <section class="logo__section"></section>
+                <section class="logo__section"></section>
+                <section class="logo__section"></section>
+                <section class="logo__section"></section>
+                <section class="logo__section"></section>
+                <section class="logo__section"></section>
             </section>
 
         </article>
@@ -110,7 +135,7 @@
 
             <h2 class="contacts__headline"> <span class="headline m-gold">СТАТЬ</span> МЕЦЕНАТОМ</h2>
             <section class="contacts__body">
-                <section class="contacts__body adress"> +7 (812) 123-45-66 <br> +7 (812) 123-45-55<br>info@theater.ru <br>г. Cанкт-петербург, невский 140
+                <section class="contacts__body adress"> +7 (812) 123-45-66 <br> +7 (812) 123-45-55<br>info@theater.ru <br>г. Cанкт-петербург, Невский 140
                 </section>
                 <form>
                     <section class="form__forinputs">

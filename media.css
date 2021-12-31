@@ -1,0 +1,705 @@
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .bodyofheader {
+         height: auto;
+         width: 50%;
+         flex-wrap: wrap;
+     }
+     .topline {
+         width: 75%;
+         height: auto;
+         flex-wrap: wrap;
+         margin-left: 0px;
+     }
+     .topline__menu {
+         width: 100%;
+         height: auto;
+         flex-wrap: wrap;
+     }
+     .menu__phone {
+         padding-left: 280px;
+         margin: 0 0 0 30px;
+     }
+     .menu__item {
+         font-size: 12px;
+     }
+     .fixedpanel {
+         position: fixed;
+         width: 5%;
+         height: 100%;
+         z-index: 100;
+     }
+     .fixedpanel__info {
+         margin-top: 20px;
+         height: 100%;
+         margin-left: -20px;
+     }
+     .info__text {
+         font-size: 14px;
+     }
+     .info__line {
+         display: none;
+     }
+     .info__icons {
+         font-size: 14px;
+         line-height: 25px;
+         margin-left: 45px;
+         margin-bottom: 30px;
+         margin-top: 50px;
+     }
+     .icons__space {
+         padding: 2px 0;
+     }
+     .about {
+         width: 50%;
+         padding: 100px 50px;
+     }
+     .about__picture {
+         display: none;
+     }
+     .article__forbooklet {
+         display: none;
+     }
+     .forheader__headline {
+         margin-top: 200px;
+         margin-left: 150px;
+     }
+     .forheader__maintext {
+         width: 75%;
+         text-align: left;
+         margin-left: 150px;
+         margin-top: 0px;
+     }
+     .button__forheader {
+         margin-bottom: 100px;
+         margin-left: 150px;
+     }
+     /* .forbooklet__picture {
+        height: auto;
+        display: none;
+    }*/
+     .article__forbooklet {
+         display: none;
+     }
+     .about__headline {
+         margin-left: 250px;
+     }
+     .about__text {
+         width: 150%;
+         padding-right: 100px;
+     }
+     .about__numbers {
+         margin-left: -25px;
+     }
+     .about__picture {
+         padding-left: 120px;
+         display: none;
+     }
+     .projects__headline {
+         margin-left: -150px;
+     }
+     .projects__slider {
+         width: 100%;
+         height: 100vh;
+         flex-wrap: wrap;
+         margin-right: 0px;
+     }
+     .slider__item2 {
+         width: 35%;
+     }
+     .slider__item3 {
+         display: none;
+     }
+     .slider__item4 {
+         display: none;
+     }
+     .raiting {
+         width: 100%;
+         margin-left: 0px;
+         margin-bottom: -100px;
+         background-size: cover;
+     }
+     .raiting__years {
+         padding: 125px 10px 125px 120px;
+         font-size: 46px;
+     }
+     .column__stars {
+         font-size: 42px;
+     }
+     .column__text {
+         font-size: 32px;
+     }
+     .partners {
+         margin-bottom: -200px;
+     }
+     .partners__headline {
+         margin-left: -550px;
+         margin-bottom: 20px;
+     }
+     .partners__logo {
+         margin-left: -300px;
+         display: flex;
+         flex-wrap: wrap;
+         width: 120%;
+     }
+     .logo__section {
+         width: 20%;
+         height: 15%;
+         margin: 10px;
+     }
+     .contacts__headline {
+         margin-left: -550px;
+         margin-bottom: -10px;
+     }
+     .contacts__body {
+         margin-left: -150px;
+     }
+     .form__forinputs {
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         padding-top: 5px;
+         margin-left: -120px;
+         margin-right: -120px;
+         margin-top: 20px;
+     }
+     input {
+         padding: 5px;
+         margin: 5px;
+     }
+     textarea {
+         /*margin-left: 50px;*/
+         width: 50%;
+         margin-top: 30px;
+     }
+     .form__button {
+         margin-left: 100px;
+     }
+     .footer__text {
+         margin: 20px 190px 0px 120px;
+         width: 50%;
+         text-align: justify;
+     }
+     .footer__line {
+         width: 50%;
+         margin: 20px 130px 0px 120px;
+     }
+ }
+ 
+ @media(min-width:768px) and (max-width:991px) {
+     .bodyofheader {
+         height: auto;
+         width: 50%;
+         flex-wrap: wrap;
+     }
+     .topline {
+         /*width: 100%;*/
+         height: auto;
+         flex-wrap: wrap;
+         margin-left: 0px;
+     }
+     .topline__menu {
+         width: 100%;
+         height: auto;
+         flex-wrap: wrap;
+     }
+     .menu__item {
+         font-size: 16px;
+     }
+     .menu__phone {
+         padding-left: 300px;
+     }
+     .fixedpanel {
+         width: 8%;
+     }
+     .fixedpanel__info {
+         margin-top: 250px;
+     }
+     .info__text {
+         display: none;
+     }
+     .info__line {
+         display: none;
+     }
+     .info__icons {
+         font-size: 36px;
+         margin-top: 50px;
+         /* writing-mode: horizontal-tb;*/
+     }
+     .icons__space {
+         padding: 5px 10px;
+     }
+     header {
+         width: 160%;
+     }
+     .forheader__maintext {
+         width: 75%;
+         text-align: left;
+         margin-left: 320px;
+         margin-top: 0px;
+     }
+     .forheader__headline {
+         margin-top: 200px;
+         margin-left: 320px;
+     }
+     .button__forheader {
+         margin-bottom: 100px;
+         margin-left: 320px;
+     }
+     .article__forbooklet {
+         height: auto;
+         display: none;
+     }
+     .about__headline {
+         margin-left: 200px;
+         width: max-content;
+     }
+     .about__text {
+         margin-left: -120px;
+     }
+     .about__numbers {
+         margin-left: -25px;
+     }
+     .about__picture {
+         display: none;
+     }
+     .projects__headline {
+         margin-left: 450px;
+     }
+     .projects__slider {
+         width: 100%;
+         height: 100vh;
+         flex-wrap: wrap;
+         margin-left: 200px;
+     }
+     .slider__item1 {
+         width: 40%;
+     }
+     .slider__item2 {
+         width: 35%;
+     }
+     .slider__item3 {
+         display: none;
+     }
+     .slider__item4 {
+         display: none;
+     }
+     .raiting {
+         width: 130%;
+         margin-left: 115px;
+         background-size: cover;
+     }
+     .raiting__years {
+         padding: 125px 10px 125px 120px;
+     }
+     .column__stars {
+         font-size: 32px;
+     }
+     .partners__headline {
+         margin-left: -150px;
+         margin-bottom: 10px;
+     }
+     .partners__logo {
+         margin-left: -250px;
+         display: flex;
+         flex-wrap: wrap;
+         width: 200%;
+     }
+     .contacts__headline {
+         margin-left: -150px;
+     }
+     .contacts__body {
+         margin-left: -100px;
+     }
+     .form__forinputs {
+         width: 80%;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     input {
+         padding: 5px;
+     }
+     textarea {
+         margin-left: 50px;
+     }
+     .form__button {
+         margin-left: 100px;
+     }
+     .footer__text {
+         margin: 20px 180px 0px 120px;
+     }
+     .footer__line {
+         width: 80%;
+         margin: 20px 130px 0px 120px;
+     }
+ }
+ 
+ @media(max-width: 767px) {
+     .topline {
+         width: 75%;
+         height: auto;
+         flex-wrap: wrap;
+         margin-left: 100px;
+         padding-left: 0px;
+     }
+     .topline__menu {
+         width: 70%;
+         height: auto;
+         flex-wrap: wrap;
+     }
+     .menu__phone {
+         padding-left: 50px;
+         font-size: 10px;
+         margin-bottom: 35px;
+     }
+     .menu__item {
+         font-size: 16px;
+         margin: 0 10px;
+     }
+     .fixedpanel {
+         width: 8%;
+     }
+     .fixedpanel__info {
+         margin-top: 250px;
+     }
+     .info__text {
+         display: none;
+     }
+     .info__line {
+         display: none;
+     }
+     .info__icons {
+         font-size: 32px;
+         margin-top: 50px;
+     }
+     .icons__space {
+         padding: 5px 10px;
+     }
+     header {
+         width: 160%;
+         height: 100vh;
+     }
+     .forheader__maintext {
+         width: 70%;
+         text-align: left;
+         margin-left: 120px;
+         margin-top: 0px;
+     }
+     .forheader__headline {
+         margin-top: 50px;
+         margin-left: 120px;
+     }
+     .button__forheader {
+         margin-bottom: 50px;
+         margin-top: 80px;
+         margin-left: 120px;
+     }
+     .article__forbooklet {
+         height: auto;
+         display: none;
+     }
+     .about__headline {
+         margin-left: 0px;
+         width: max-content;
+     }
+     .about__body {
+         width: 150%;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .about__text {
+         margin-left: -150px;
+     }
+     .about__numbers {
+         margin-top: 20px;
+         margin-left: -190px;
+     }
+     .about__picture {
+         display: none;
+     }
+     .projects__headline {
+         margin-left: 150px;
+         margin-bottom: -50px;
+     }
+     .projects__slider {
+         width: 100%;
+         height: 100vh;
+         flex-wrap: wrap;
+         margin-left: 40px;
+     }
+     .slider__item1 {
+         width: 40%;
+     }
+     .slider__item2 {
+         width: 35%;
+     }
+     .slider__item3 {
+         display: none;
+     }
+     .slider__item4 {
+         display: none;
+     }
+     .raiting {
+         width: 120%;
+         margin-left: 95px;
+         background-size: cover;
+     }
+     .raiting__years {
+         padding: 125px 10px 125px 120px;
+     }
+     .column__stars {
+         font-size: 32px;
+     }
+     .partners__headline {
+         margin-left: -250px;
+         margin-bottom: 10px;
+     }
+     .partners__logo {
+         margin-left: -250px;
+         display: flex;
+         flex-wrap: wrap;
+         width: 130%;
+     }
+     .logo__section {
+         width: 20%;
+         height: 20%;
+         margin: 10px;
+     }
+     .contacts__headline {
+         margin-left: -250px;
+         margin-bottom: 50px;
+     }
+     .contacts__body {
+         margin-left: -150px;
+     }
+     .form__forinputs {
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         padding-top: 5px;
+         margin-left: -120px;
+         margin-right: -120px;
+         margin-top: 20px;
+     }
+     input {
+         padding: 5px;
+         margin: 10px;
+     }
+     textarea {
+         /*margin-left: 50px;*/
+         width: 50%;
+         margin-top: 35px;
+         margin-left: 100px;
+     }
+     .form__button {
+         margin-left: 20px;
+         margin-top: 50px;
+         padding: 10px;
+         width: auto;
+     }
+     .footer__text {
+         margin: 20px 10px 0px 120px;
+         display: flex;
+         flex-direction: column;
+     }
+     .footer__line {
+         width: 90%;
+         margin: 20px 130px 0px 120px;
+     }
+ }
+ 
+ @media (max-width:480px) {
+     .topline {
+         /* width: 75%;
+            height: auto;
+            flex-wrap: wrap;
+           
+            padding-left: 0px;*/
+         flex-direction: column;
+         margin-left: 50px;
+     }
+     .topline__menu {
+         width: 100%;
+         height: auto;
+         flex-wrap: wrap;
+         flex-direction: column;
+     }
+     .menu__phone {
+         /*padding-left: 10px;
+            font-size: 8px;
+            margin-bottom: 10px;*/
+         display: none;
+     }
+     .menu__item {
+         font-size: 16px;
+         margin: 0 10px;
+         padding-top: 10px;
+     }
+     .fixedpanel {
+         width: 7%;
+     }
+     .fixedpanel__info {
+         margin-top: 200px;
+     }
+     .info__text {
+         display: none;
+     }
+     .info__line {
+         display: none;
+     }
+     .info__icons {
+         font-size: 32px;
+         line-height: 25px;
+         margin-left: 10px;
+         margin-bottom: 30px;
+         margin-top: 10px;
+     }
+     .icons__space {
+         padding: 5px 10px;
+     }
+     header {
+         width: 160%;
+         height: 100vh;
+     }
+     .forheader__maintext {
+         width: 75%;
+         text-align: left;
+         margin-left: 90px;
+         margin-top: 0px;
+         font-size: 10px;
+     }
+     .forheader__headline {
+         margin-top: 20px;
+         margin-left: 90px;
+         font-size: 32px;
+     }
+     .button__forheader {
+         margin-bottom: 50px;
+         margin-top: 50px;
+         margin-left: 90px;
+     }
+     .article__forbooklet {
+         height: auto;
+         display: none;
+     }
+     .about__headline {
+         margin-left: -150px;
+         width: max-content;
+         font-size: 42px;
+     }
+     .about__body {
+         width: 150%;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .about__text {
+         margin-left: -170px;
+         font-size: 16px;
+         width: 380px;
+     }
+     .about__numbers {
+         margin-top: 20px;
+         margin-left: -190px;
+     }
+     .about__picture {
+         display: none;
+     }
+     .projects__headline {
+         margin-left: 150px;
+         margin-bottom: -50px;
+         font-size: 42px;
+     }
+     .projects__slider {
+         width: 100%;
+         height: 100vh;
+         flex-wrap: wrap;
+         margin-left: 40px;
+     }
+     .slider__item1 {
+         display: none;
+     }
+     .slider__item2 {
+         width: 70%;
+     }
+     .slider__item3 {
+         display: none;
+     }
+     .slider__item4 {
+         display: none;
+     }
+     .raiting {
+         width: 120%;
+         margin-left: 95px;
+         background-size: cover;
+         display: none;
+     }
+     .raiting__years {
+         padding: 125px 10px 125px 120px;
+     }
+     .column__stars {
+         font-size: 32px;
+     }
+     .partners__headline {
+         margin-left: -500px;
+         margin-bottom: 10px;
+         font-size: 42px;
+     }
+     .partners__logo {
+         margin-left: -300px;
+         display: flex;
+         flex-wrap: wrap;
+         width: 150%;
+     }
+     .logo__section {
+         width: 20%;
+         height: 20%;
+         margin: 10px;
+     }
+     .contacts__headline {
+         margin-left: -530px;
+         margin-bottom: 50px;
+         font-size: 42px;
+     }
+     .contacts__body {
+         margin-left: -150px;
+         display: flex;
+         flex-direction: column;
+     }
+     .form__forinputs {
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         padding-top: 5px;
+         margin-left: -120px;
+         margin-right: -120px;
+         margin-top: 20px;
+     }
+     input {
+         padding: 5px;
+         margin: 10px;
+     }
+     textarea {
+         /*margin-left: 50px;*/
+         width: 50%;
+         margin-top: 35px;
+         margin-left: 100px;
+     }
+     .form__button {
+         margin-left: 20px;
+         margin-top: 50px;
+         padding: 10px;
+         width: auto;
+     }
+     .footer__text {
+         margin: 20px 10px 0px 120px;
+         display: flex;
+         flex-direction: column;
+     }
+     .footer__line {
+         width: 70%;
+         margin: 20px 130px 0px 120px;
+     }
+ }
